@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <CstmrCdtTrfInitn>
+      <GrpHdr>
+         <MsgId>64620</MsgId>
+         <CreDtTm>2020-05-29T02:01:11</CreDtTm>
+         <NbOfTxs>2</NbOfTxs>
+         <CtrlSum>4700000</CtrlSum>
+         <InitgPty>
+            <Nm>GOLUBXML</Nm>
+            <Id>
+               <OrgId>
+                  <Othr>
+                     <Id>GOLUBXML</Id>
+                     <SchmeNm>
+                        <Cd>CUST</Cd>
+                     </SchmeNm>
+                  </Othr>
+               </OrgId>
+            </Id>
+         </InitgPty>
+      </GrpHdr>
+      <PmtInf>
+         <PmtInfId>4507064620</PmtInfId>
+         <PmtMtd>TRF</PmtMtd>
+         <PmtTpInf>
+            <SvcLvl>
+               <Cd>URGP</Cd>
+            </SvcLvl>
+            <LclInstrm>
+               <Prtry>WIRE</Prtry>
+            </LclInstrm>
+         </PmtTpInf>
+         <ReqdExctnDt>2020-09-07</ReqdExctnDt>
+         <Dbtr>
+            <Nm>Gulab Capital Partners Intl. 12, LP</Nm>
+            <PstlAdr>
+               <PstCd>60606</PstCd>
+               <TwnNm>Chicago</TwnNm>
+               <CtrySubDvsn>IL</CtrySubDvsn>
+               <Ctry>US</Ctry>
+               <AdrLine>150 S. Wacker Dr, Suite 800</AdrLine>
+            </PstlAdr>
+         </Dbtr>
+         <DbtrAcct>
+            <Id>
+               <Othr>
+                  <Id>3302416799</Id>
+               </Othr>
+            </Id>
+            <Tp>
+               <Cd>CACC</Cd>
+            </Tp>
+            <Ccy>USD</Ccy>
+         </DbtrAcct>
+         <DbtrAgt>
+            <FinInstnId>
+               <ClrSysMmbId>
+                  <MmbId>121140399</MmbId>
+               </ClrSysMmbId>
+               <PstlAdr>
+                  <TwnNm>Santa Clara</TwnNm>
+                  <CtrySubDvsn>CA</CtrySubDvsn>
+                  <Ctry>US</Ctry>
+                  <AdrLine>3003 Tasman Drive</AdrLine>
+               </PstlAdr>
+            </FinInstnId>
+         </DbtrAgt>
+         <CdtTrfTxInf>
+            <PmtId>
+               <EndToEndId>45070</EndToEndId>
+            </PmtId>
+            <!-- <PmtTpInf> -->
+               <!-- <SvcLvl> -->
+                  <!-- <Cd>URGP</Cd> -->
+               <!-- </SvcLvl> -->
+            <!-- </PmtTpInf> -->
+            <Amt>
+               <InstdAmt Ccy="USD">1500000.00</InstdAmt>
+            </Amt>
+            <ChrgBr>DEBT</ChrgBr>
+            <CdtrAgt>
+               <FinInstnId>
+			     <BIC>SVBKGB2L</BIC>
+                  <!--ClrSysMmbId>
+                     <MmbId>121000248</MmbId>
+                  </ClrSysMmbId-->
+                  <Nm>Wells Fargo</Nm>
+                  <PstlAdr>
+                     <PstCd>94104</PstCd>
+                     <TwnNm>San Francisco</TwnNm>
+                     <CtrySubDvsn>CA</CtrySubDvsn>
+                     <Ctry>GB</Ctry>
+                     <AdrLine>420 Montgomery Street</AdrLine>
+                  </PstlAdr>
+               </FinInstnId>
+            </CdtrAgt>
+            <Cdtr>
+               <Nm>Bulgob Capital Company Intl. 12 LTD</Nm>
+               <PstlAdr>
+                  <PstCd>E139AD</PstCd>
+                  <TwnNm>London</TwnNm>
+                  <CtrySubDvsn>IL</CtrySubDvsn>
+                  <Ctry>GB</Ctry>
+                  <AdrLine>150 S. Wacker Dr, Suite 800</AdrLine>
+               </PstlAdr>
+            </Cdtr>
+            <CdtrAcct>
+               <Id>
+                  <Othr>
+                     <Id>01171794</Id>
+                  </Othr>
+               </Id>
+               <Tp>
+                  <Cd>CACC</Cd>
+               </Tp>
+            </CdtrAcct>
+            <RmtInf>
+               <Ustrd>GCP 12i SVB to GCC 12i WF</Ustrd>
+            </RmtInf>
+         </CdtTrfTxInf>
+      </PmtInf>
+     </CstmrCdtTrfInitn>
+</Document>

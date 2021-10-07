@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?><Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03">
+   <CstmrCdtTrfInitn>
+      <GrpHdr>
+         <MsgId>520</MsgId>
+         <CreDtTm>2020-05-29T01:01:06</CreDtTm>
+         <NbOfTxs>1</NbOfTxs>
+         <CtrlSum>3750</CtrlSum>
+         <InitgPty>
+            <Nm>Hamilton Lane Advisors, LLC</Nm>
+         </InitgPty>
+      </GrpHdr>
+      <PmtInf>
+         <PmtInfId>5201</PmtInfId>
+         <PmtMtd>TRF</PmtMtd>
+         <BtchBookg>false</BtchBookg>
+         <NbOfTxs>1</NbOfTxs>
+         <CtrlSum>3750</CtrlSum>
+         <PmtTpInf>
+            <InstrPrty>NORM</InstrPrty>
+            <LclInstrm>
+               <!--Cd>ASTI</Cd-->
+               <Prtry>Wire</Prtry>
+            </LclInstrm>
+         </PmtTpInf>
+         <ReqdExctnDt>2020-09-07</ReqdExctnDt>
+         <Dbtr>
+            <Nm>Hamilton Lane Advisors, LLC</Nm>
+            <PstlAdr>
+               <AdrTp>ADDR</AdrTp>
+               <PstCd>19004</PstCd>
+               <TwnNm>Bala Cynwyd</TwnNm>
+               <CtrySubDvsn>PA</CtrySubDvsn>
+               <Ctry>US</Ctry>
+               <AdrLine>One Presidential Boulevard,</AdrLine>
+               <AdrLine>4th Floor</AdrLine>
+            </PstlAdr>
+            <Id>
+               <OrgId>
+                  <Othr>
+                     <Id>HL002</Id>
+                  </Othr>
+               </OrgId>
+            </Id>
+         </Dbtr>
+         <DbtrAcct>
+            <Id>
+               <Othr>
+                  <Id>1134567890</Id>
+               </Othr>
+            </Id>
+            <Tp>
+               <Cd>SACC</Cd>
+            </Tp>
+            <Ccy>CAD</Ccy>
+            <Nm>Silicon Valley Bank Business 1510</Nm>
+         </DbtrAcct>
+         <DbtrAgt>
+            <FinInstnId>
+               <PstlAdr>
+                  <Ctry>US</Ctry>
+               </PstlAdr>
+            </FinInstnId>
+         </DbtrAgt>
+         <CdtTrfTxInf>
+            <PmtId>
+               <InstrId>000015448</InstrId>
+               <EndToEndId>000015448</EndToEndId>
+            </PmtId>
+            <!--PmtTpInf>
+               <CtgyPurp>
+                  <Cd>CASH</Cd>
+               </CtgyPurp>
+            </PmtTpInf-->
+            <Amt>
+               <InstdAmt Ccy="CAD">3750</InstdAmt>
+            </Amt>
+            <CdtrAgt>
+               <FinInstnId>
+                  <BIC>COBADEFFXXX</BIC>
+                  <Nm>Commerzbank AG, Munich</Nm>
+                  <PstlAdr>
+                     <Ctry>DE</Ctry>
+                  </PstlAdr>
+               </FinInstnId>
+               <BrnchId>
+                  <Nm>Commerzbank AG, Munich</Nm>
+                  <PstlAdr>
+                     <Ctry>DE</Ctry>
+                  </PstlAdr>
+               </BrnchId>
+            </CdtrAgt>
+            <Cdtr>
+               <Nm>Hotel Vier Jahreszeiten Kempinski</Nm>
+               <PstlAdr>
+                  <PstCd>80539</PstCd>
+                  <TwnNm>Munchen</TwnNm>
+                  <Ctry>DE</Ctry>
+                  <AdrLine>Maximilianstrabe 17</AdrLine>
+               </PstlAdr>
+               <Id>
+                  <OrgId>
+                     <Othr>
+                        <Id>S-1435</Id>
+                     </Othr>
+                  </OrgId>
+               </Id>
+            </Cdtr>
+            <CdtrAcct>
+               <Id>
+                  <IBAN>DE34700400410660556200</IBAN>
+               </Id>
+               <Tp>
+                  <Cd>SACC</Cd>
+               </Tp>
+               <Ccy>EUR</Ccy>
+               <Nm>Hotel Vier Jahreszeiten Kempinski</Nm>
+            </CdtrAcct>
+            <Purp>
+               <Prtry>DEP</Prtry>
+            </Purp>
+            <Tax>
+               <Dbtr>
+                  <TaxId>23-2962336</TaxId>
+               </Dbtr>
+            </Tax>
+            <RmtInf>
+               <Strd>
+                  <RfrdDocInf>
+                     <Tp>
+                        <CdOrPrtry>
+                           <Cd>SOAC</Cd>
+                        </CdOrPrtry>
+                     </Tp>
+                     <Nb>Invoice- contract 2034993</Nb>
+                     <RltdDt>2019-08-09</RltdDt>
+                  </RfrdDocInf>
+                  <RfrdDocAmt>
+                     <DuePyblAmt Ccy="EUR">3750</DuePyblAmt>
+                     <RmtdAmt Ccy="EUR">3750</RmtdAmt>
+                  </RfrdDocAmt>
+                  <CdtrRefInf>
+                     <Ref>Invoice- contract 2034993</Ref>
+                  </CdtrRefInf>
+               </Strd>
+            </RmtInf>
+         </CdtTrfTxInf>
+      </PmtInf>
+   </CstmrCdtTrfInitn>
+</Document>

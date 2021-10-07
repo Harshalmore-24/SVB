@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03">
+   <CstmrCdtTrfInitn>
+      <GrpHdr>
+         <MsgId>101011</MsgId>
+         <CreDtTm>2020-05-29T01:01:01</CreDtTm>
+         <NbOfTxs>1</NbOfTxs>
+         <CtrlSum>630</CtrlSum>
+         <InitgPty>
+            <Nm>Grindr, LLC</Nm>
+         </InitgPty>
+      </GrpHdr>
+      <PmtInf>
+         <PmtInfId>2983</PmtInfId>
+         <PmtMtd>TRF</PmtMtd>
+         <PmtTpInf>
+            <InstrPrty>NORM</InstrPrty>
+            <LclInstrm>
+               <Prtry>WIRE</Prtry>
+            </LclInstrm>
+         </PmtTpInf>
+         <ReqdExctnDt>2020-09-07</ReqdExctnDt>
+         <Dbtr>
+            <Nm>Grindr, LLC</Nm>
+            <PstlAdr>
+               <PstCd>90069</PstCd>
+               <TwnNm>West Hollywood</TwnNm>
+               <CtrySubDvsn>Los AngelesCA</CtrySubDvsn>
+               <Ctry>CA</Ctry>
+               <AdrLine>750 N San Vincente Blvd,14th Floor</AdrLine>
+            </PstlAdr>
+            <Id>
+               <OrgId>
+                  <Othr>
+                     <Id>7811209168</Id>
+                     <Issr>WIRE</Issr>
+                  </Othr>
+               </OrgId>
+            </Id>
+         </Dbtr>
+         <DbtrAcct>
+            <Id>
+               <Othr>
+                  <Id>1134567898</Id>
+               </Othr>
+            </Id>
+            <Tp>
+               <Cd>SACC</Cd>
+            </Tp>
+            <Ccy>USD</Ccy>
+         </DbtrAcct>
+         <DbtrAgt>
+            <FinInstnId>
+               <ClrSysMmbId>
+                  <ClrSysId>
+                     <Cd>USABA</Cd>
+                  </ClrSysId>
+                  <MmbId>121140399</MmbId>
+               </ClrSysMmbId>
+               <Nm>Silicon Valley Bank</Nm>
+               <PstlAdr>
+                  <PstCd>95054</PstCd>
+                  <TwnNm>Santa Clara</TwnNm>
+                  <CtrySubDvsn>CA</CtrySubDvsn>
+                  <Ctry>US</Ctry>
+                  <AdrLine>3003 Tasman Dr</AdrLine>
+               </PstlAdr>
+            </FinInstnId>
+         </DbtrAgt>
+         <CdtTrfTxInf>
+            <PmtId>
+               <EndToEndId>1180</EndToEndId>
+            </PmtId>
+            <!-- <PmtTpInf> -->
+               <!-- <CtgyPurp> -->
+                  <!-- <Cd>CASH</Cd> -->
+               <!-- </CtgyPurp> -->
+            <!-- </PmtTpInf> -->
+            <Amt>
+               <InstdAmt Ccy="BGN">630</InstdAmt>
+            </Amt>
+            <CdtrAgt>
+               <FinInstnId>
+                  <BIC>RABONL2U</BIC>
+                  <Nm>Rabobank</Nm>
+                  <PstlAdr>
+                     <Ctry>NL</Ctry>
+                  </PstlAdr>
+               </FinInstnId>
+            </CdtrAgt>
+            <Cdtr>
+               <Nm>Mazars Paardekooper Hoffman NV</Nm>
+               <PstlAdr>
+                  <PstCd>23123-30</PstCd>
+                  <!-- <TwnNm>Rotterdam</TwnNm> -->
+                  <Ctry>NL</Ctry>
+                  <AdrLine>Rivium Promenade</AdrLine>
+               </PstlAdr>
+            </Cdtr>
+            <CdtrAcct>
+               <Id>
+                  <Othr>
+                     <Id>12343456</Id>
+                  </Othr>
+               </Id>
+            </CdtrAcct>
+            <Purp>
+               <Prtry>DEP</Prtry>
+            </Purp>
+            <RmtInf>
+               <Ustrd>RD1*NL00120091185</Ustrd>
+            </RmtInf>
+         </CdtTrfTxInf>
+      </PmtInf>
+   </CstmrCdtTrfInitn>
+</Document>
